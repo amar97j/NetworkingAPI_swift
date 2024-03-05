@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 guard let windowScene = (scene as? UIWindowScene) else { return }
                 let window = UIWindow(windowScene: windowScene)
                 
-                let petViewController = PetViewController(style: .plain)
+                let petViewController = PetViewController()
                 let navigationController = UINavigationController(rootViewController: petViewController)
                 
                 window.rootViewController = navigationController

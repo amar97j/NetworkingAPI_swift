@@ -8,7 +8,7 @@
 import Foundation
 
 struct Pet: Codable{
-    let id: Int
+    let id: Int 
     let name: String
     let gender: String
     let adopted: Bool

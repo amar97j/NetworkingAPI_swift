@@ -1,5 +1,5 @@
 {
-  "originHash" : "a6d0734f8390b1b6a683f6622348b9c78afda317135a3fe43a91d3fbaa28ddff",
+  "originHash" : "abf293437426af0c88413918f1c71551809c48aa3a4869c03c135c6d01a71a4f",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "723fa5a6c65812aec4a0d7cc432ee198883b6e00",
         "version" : "5.9.0"
+      }
+    },
+    {
+      "identity" : "eureka",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/xmartlabs/Eureka",
+      "state" : {
+        "revision" : "b6e35acf77a5551070afa6248935ec68e71f22af",
+        "version" : "5.4.0"
       }
     },
     {

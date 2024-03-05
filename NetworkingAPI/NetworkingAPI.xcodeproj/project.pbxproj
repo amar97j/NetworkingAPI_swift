@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090E5D2B2B973CB90067C88C /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E5D2A2B973CB90067C88C /* Tag.swift */; };
+		090ED85D2B970E7400F4DE85 /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = 090ED85C2B970E7400F4DE85 /* Eureka */; };
+		090ED85F2B970F1A00F4DE85 /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090ED85E2B970F1A00F4DE85 /* AddPetViewController.swift */; };
 		095FB92D2B95E55A00A0F03B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095FB92C2B95E55A00A0F03B /* AppDelegate.swift */; };
 		095FB92F2B95E55A00A0F03B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095FB92E2B95E55A00A0F03B /* SceneDelegate.swift */; };
 		095FB9312B95E55A00A0F03B /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095FB9302B95E55A00A0F03B /* PetViewController.swift */; };
@@ -23,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090E5D2A2B973CB90067C88C /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		090ED85E2B970F1A00F4DE85 /* AddPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
 		095FB9292B95E55A00A0F03B /* NetworkingAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095FB92C2B95E55A00A0F03B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		095FB92E2B95E55A00A0F03B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 				095FB9422B95E59C00A0F03B /* SnapKit in Frameworks */,
 				095FB9442B95E59C00A0F03B /* SnapKit-Dynamic in Frameworks */,
 				095FB9562B95E8B100A0F03B /* Kingfisher in Frameworks */,
+				090ED85D2B970E7400F4DE85 /* Eureka in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +109,7 @@
 			children = (
 				095FB9302B95E55A00A0F03B /* PetViewController.swift */,
 				095FB9522B95E7FF00A0F03B /* DetailsPetViewController.swift */,
+				090ED85E2B970F1A00F4DE85 /* AddPetViewController.swift */,
 			);
 			path = vc;
 			sourceTree = "<group>";
@@ -111,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				095FB94E2B95E72400A0F03B /* Pet.swift */,
+				090E5D2A2B973CB90067C88C /* Tag.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 				095FB9462B95E5E600A0F03B /* Alamofire */,
 				095FB9482B95E5E600A0F03B /* AlamofireDynamic */,
 				095FB9552B95E8B100A0F03B /* Kingfisher */,
+				090ED85C2B970E7400F4DE85 /* Eureka */,
 			);
 			productName = NetworkingAPI;
 			productReference = 095FB9292B95E55A00A0F03B /* NetworkingAPI.app */;
@@ -170,6 +179,7 @@
 				095FB9402B95E59C00A0F03B /* XCRemoteSwiftPackageReference "SnapKit" */,
 				095FB9452B95E5E600A0F03B /* XCRemoteSwiftPackageReference "Alamofire" */,
 				095FB9542B95E8B100A0F03B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				090ED85B2B970E7400F4DE85 /* XCRemoteSwiftPackageReference "Eureka" */,
 			);
 			productRefGroup = 095FB92A2B95E55A00A0F03B /* Products */;
 			projectDirPath = "";
@@ -200,6 +210,8 @@
 				095FB9312B95E55A00A0F03B /* PetViewController.swift in Sources */,
 				095FB94F2B95E72400A0F03B /* Pet.swift in Sources */,
 				095FB9512B95E73D00A0F03B /* NetworkManager.swift in Sources */,
+				090ED85F2B970F1A00F4DE85 /* AddPetViewController.swift in Sources */,
+				090E5D2B2B973CB90067C88C /* Tag.swift in Sources */,
 				095FB92D2B95E55A00A0F03B /* AppDelegate.swift in Sources */,
 				095FB92F2B95E55A00A0F03B /* SceneDelegate.swift in Sources */,
 				095FB9532B95E7FF00A0F03B /* DetailsPetViewController.swift in Sources */,
@@ -415,6 +427,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		090ED85B2B970E7400F4DE85 /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 		095FB9402B95E59C00A0F03B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -442,6 +462,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		090ED85C2B970E7400F4DE85 /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 090ED85B2B970E7400F4DE85 /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
 		095FB9412B95E59C00A0F03B /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 095FB9402B95E59C00A0F03B /* XCRemoteSwiftPackageReference "SnapKit" */;
